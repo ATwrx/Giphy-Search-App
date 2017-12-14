@@ -10,8 +10,10 @@ function addSearchBtns() {
 };
 addSearchBtns();
 
-
 $(".btn").click(function () {
+
+})
+$(document).on("click", ".btn", function () {
     $("#results").html("");
     // Beginning API call
     var queryURL = "https://api.giphy.com/v1/gifs/search?";
