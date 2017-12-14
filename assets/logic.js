@@ -10,9 +10,6 @@ function addSearchBtns() {
 };
 addSearchBtns();
 
-$(".btn").click(function () {
-
-})
 $(document).on("click", ".btn", function () {
     $("#results").html("");
     // Beginning API call
